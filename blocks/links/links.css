@@ -1,0 +1,12 @@
+.links {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+@media screen and (max-width:767px) {
+    .links {
+        flex-direction: column;
+        margin: 0 0 48px;
+    }
+}

@@ -1,0 +1,10 @@
+.root {
+    min-width: 300px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    background-color: #2A2C2F;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}

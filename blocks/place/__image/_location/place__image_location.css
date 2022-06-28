@@ -1,0 +1,19 @@
+.place__image_location-kosa {
+    background-image: url(/images/place-kosa.jpg);
+}
+
+.place__image_location-kolsky {
+    background-image: url(/images/place-kolsky.jpg);
+}
+
+.place__image_location-altai {
+    background-image: url(/images/place-altai.jpg);
+}
+
+.place__image_location-baikal {
+    background-image: url(/images/place-winter-baikal.jpg);
+}
+
+.place__image_location-karelia {
+    background-image: url(/images/place-karelia.jpg);
+}

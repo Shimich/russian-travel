@@ -1,0 +1,7 @@
+.list__item {
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}

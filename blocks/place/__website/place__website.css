@@ -1,0 +1,37 @@
+.place__website {
+    grid-area: website;
+    position: relative;
+    margin: auto auto 0 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    height: calc(22px + 12px + 12px);
+    display: flex;
+    align-items: flex-end;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.place__website:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.place__website::before {
+    content: 'URL';
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 12px;
+    bottom: calc(12px + 22px);
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    opacity: 1;
+}
+
+@media screen and (max-width:767px) {
+    .place__website {
+        margin: 0 auto 0 16px;
+    }
+}

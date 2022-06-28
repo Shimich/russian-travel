@@ -1,4 +1,4 @@
-.header__lang-link_form_choice {
+.form__item {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -6,14 +6,14 @@
     clip: rect(0 0 0 0);
 }
 
-.header__lang-link_form {   
+.form__label {   
     display: inline-block;
     vertical-align: middle;
     margin-left: 18px;
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link_form {
+    .form__label {
         margin-bottom: 8px;
         font-size: 18px;
         line-height: 20px;
@@ -21,13 +21,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .header__lang-link_form {
+    .form__label {
         margin-bottom: 6px;
         font-size: 24px;
         line-height: 28px;
     }
 }
 
-.header__lang-link_form_choice:checked+.header__lang-link_form_underline {
+.form__item:checked+.form__pseudo {
     border-bottom: 1.5px solid #ffffff;
 }

@@ -22,7 +22,7 @@
     .place {
         width: calc(100% - 48px);
         margin: 0 auto 73px;
-        grid-template-columns: 340px 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         gap: 28px;
         grid-template-areas:
@@ -35,7 +35,7 @@
     .place {
         width: calc(100% - 48px*2);
         margin: 0 auto 73px;
-        grid-template-columns: 440px 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         gap: 32px;
         grid-template-areas:
@@ -48,7 +48,7 @@
     .place {
         width: calc(100% - 148px*2);
         margin: 0 auto 92px;
-        grid-template-columns: 460px 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         gap: 40px;
         grid-template-areas:

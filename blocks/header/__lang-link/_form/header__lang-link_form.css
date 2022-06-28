@@ -1,20 +1,19 @@
-.lang__form_radio_choice {
+.header__lang-link_form_choice {
     position: absolute;
     width: 1px;
     height: 1px;
     overflow: hidden;
     clip: rect(0 0 0 0);
-
 }
 
-.lang__form_radio {   
+.header__lang-link_form {   
     display: inline-block;
     vertical-align: middle;
     margin-left: 18px;
 }
 
 @media screen and (max-width: 767px) {
-    .lang__form_radio {
+    .header__lang-link_form {
         margin-bottom: 8px;
         font-size: 18px;
         line-height: 20px;
@@ -22,9 +21,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .lang__form_radio {
+    .header__lang-link_form {
         margin-bottom: 6px;
         font-size: 24px;
         line-height: 28px;
     }
+}
+
+.header__lang-link_form_choice:checked+.header__lang-link_form_underline {
+    border-bottom: 1.5px solid #ffffff;
 }

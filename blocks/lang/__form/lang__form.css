@@ -1,4 +1,4 @@
-.lang_radio-invisible {
+.lang__form_radio_choice {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -7,15 +7,14 @@
 
 }
 
-.lang_radio-visible {
-   
+.lang__form_radio {   
     display: inline-block;
     vertical-align: middle;
     margin-left: 18px;
 }
 
 @media screen and (max-width: 767px) {
-    .lang_radio-visible {
+    .lang__form_radio {
         margin-bottom: 8px;
         font-size: 18px;
         line-height: 20px;
@@ -23,7 +22,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .lang_radio-visible {
+    .lang__form_radio {
         margin-bottom: 6px;
         font-size: 24px;
         line-height: 28px;

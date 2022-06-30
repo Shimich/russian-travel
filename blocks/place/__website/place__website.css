@@ -9,9 +9,10 @@
     height: calc(22px + 12px + 12px);
     display: flex;
     align-items: flex-end;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     border-bottom: 1px solid #ffffff;
+    cursor: pointer;
 }
 
 .place__website:hover{
@@ -21,7 +22,7 @@
 .place__website::before {
     content: 'URL';
     position: absolute;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     bottom: calc(12px + 22px);

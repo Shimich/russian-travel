@@ -4,6 +4,7 @@
     padding-bottom: 62.5%;
     background-image: url(/images/cover-trains.jpg);
     background-size: contain;
+    cursor: pointer;
 }
 
 .cover:before {

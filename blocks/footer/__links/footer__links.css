@@ -1,11 +1,11 @@
-.links {
+.footer__links {
     display: flex;
     flex-direction: row;
     cursor: pointer;
 }
 
 @media screen and (max-width:767px) {
-    .links {
+    .footer__links {
         flex-direction: column;
         margin: 0 0 48px;
     }

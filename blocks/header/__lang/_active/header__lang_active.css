@@ -2,8 +2,6 @@
     border-bottom: 1.5px solid white;
 } 
 
-@import url(../header__lang.css);
-
 .header__lang:target .header__lang_active {
     border: none;
 }

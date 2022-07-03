@@ -6,13 +6,11 @@
     margin-left: 18px;
 }
 
-
-
 .header__lang:target {
     border-bottom: 1.5px solid #ffffff;
 }
 
-.header__lang:last-of-type:target .header__lang:first-of-type{
+.header__lang:target:last-of-type .header__lang:first-of-type{
     border: none;
 }
 

@@ -44,6 +44,6 @@
     .cover {
         width: 1184px;
         height: calc(1184px*0.625);
-        margin: 92 auto 0;
+        margin: auto ;
     }
 }

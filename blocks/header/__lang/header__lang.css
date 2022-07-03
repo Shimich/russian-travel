@@ -6,9 +6,19 @@
     margin-left: 18px;
 }
 
-.header__lang-choise:target .header__lang {
+
+
+.header__lang:target {
     border-bottom: 1.5px solid #ffffff;
 }
+
+.header__lang:last-of-type:target .header__lang:first-of-type{
+    border: none;
+}
+
+/* .header__lang:first-of-type{
+    border-bottom: 1.5px solid #ffffff; 
+} */
 
 .header__lang:hover{
     opacity: .7;

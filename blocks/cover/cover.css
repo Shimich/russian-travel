@@ -10,7 +10,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .cover:before {
@@ -45,6 +44,6 @@
     .cover {
         width: 1184px;
         height: calc(1184px*0.625);
-        margin: auto;
+        margin: 92 auto 0;
     }
 }

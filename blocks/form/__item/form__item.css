@@ -1,4 +1,0 @@
-.form__pseudo:checked+.form__item {
-    border-bottom: 1.5px solid #ffffff;
-    font-weight: 400;
-}

@@ -16,6 +16,9 @@
             "image"
             "paragraph";
     }
+    .place:last-of-type{
+        margin-bottom: 66px;
+    }
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -28,6 +31,9 @@
         grid-template-areas:
             "title website"
             "image paragraph";
+    }
+    .place:last-of-type{
+        margin-bottom: 90px;
     }
 }
 
@@ -42,17 +48,23 @@
             "title website"
             "image paragraph";
     }
+    .place:last-of-type{
+        margin-bottom: 92px;
+    }
 }
 
 @media screen and (min-width:1279px) {
     .place {
         width: calc(100% - 148px*2);
-        margin: 0 auto 92px;
+        margin: 0 auto 80px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         gap: 48px 40px;
         grid-template-areas:
             "title website"
             "image paragraph";
+    }
+    .place:last-of-type{
+        margin-bottom: 92px;
     }
 }

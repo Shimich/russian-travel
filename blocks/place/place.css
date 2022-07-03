@@ -18,39 +18,39 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:767px) and (max-width:1023px) {
     .place {
         width: calc(100% - 48px);
         margin: 0 auto 73px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
-        gap: 28px;
+        gap: 48px 28px;
         grid-template-areas:
             "title website"
             "image paragraph";
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1279px) {
+@media screen and (min-width:1023px) and (max-width:1279px) {
     .place {
         width: calc(100% - 48px*2);
         margin: 0 auto 73px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
-        gap: 32px;
+        gap: 48px 32px;
         grid-template-areas:
             "title website"
             "image paragraph";
     }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1279px) {
     .place {
         width: calc(100% - 148px*2);
         margin: 0 auto 92px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, minmax(min-content, max-content));
-        gap: 40px;
+        gap: 48px 40px;
         grid-template-areas:
             "title website"
             "image paragraph";

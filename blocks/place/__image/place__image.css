@@ -1,3 +1,30 @@
 .place__image {
     width: 100%;
+    max-height: 460px;
+    overflow: hidden;
+    grid-area: image;
+}
+
+@media screen and (max-width:767px) {
+    .place__image {
+        height: 100vw;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .place__image {
+        height: calc(50vw - 24px - 14px);
+    }
+}
+
+@media screen and (min-width:1023px) and (max-width:1279px) {
+    .place__image {
+        height: calc(50vw - 24px - 16px);
+    }
+}
+
+@media screen and (min-width:1279px) {
+    .place__image {
+        height: calc(50vw - 148px - 20px);
+    }
 }

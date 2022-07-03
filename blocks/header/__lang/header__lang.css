@@ -1,0 +1,31 @@
+.header__lang {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+
+.header__lang-choise:target .header__lang {
+    border-bottom: 1.5px solid #ffffff;
+}
+
+.header__lang:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang {
+        margin-bottom: 8px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .header__lang {
+        margin-bottom: 6px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
